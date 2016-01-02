@@ -46,10 +46,16 @@ println("Level of final tank at t=100: $(final_tank.level)")
 println("Level of intermediate tank 1 at t=100: $(final_tank.tank_up[1].level)")
 ```
 
+# Tests
+
+The tests are automatically executed by the _Travis CI_ service every
+time a new version in pushed to GitHub. To run the tests locally type
+`Pkg.test("TankDemo")`.
+
 # How was this package created?
 
-1) Use `Pkg.generate()` to generate the package skeleton
-2) Copy the 'program' part of our last version into `src/TankDemo.jl`
-3) Copy the 'test' part of our last version into `test/runtests.jl`
-4) Modify this `README.md` file
-5) Push it to GitHub
+1. Use `Pkg.generate()` to generate the package skeleton
+2. Copy the 'program' part of our last version into `src/TankDemo.jl`
+3. Copy the 'test' part of our last version into `test/runtests.jl`
+4. Modify this `README.md` file
+5. Push it to GitHub
