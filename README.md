@@ -12,12 +12,13 @@ use whatsoever!*
 
 # Installation
 
-This package can then be installed with the Julia command Pkg.clone():
+This package can then be installed with the Julia command `Pkg.clone()`:
 
+```Julia
 Pkg.clone("git://github.com/scheidan/TankDemo.jl.git")
-
+```
 After that, `TankDemo` behaves like a normal package. For example, it
-can be updated with Pkg.update().
+can be updated with `Pkg.update()`.
 
 # Usage
 
