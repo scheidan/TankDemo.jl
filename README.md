@@ -1,7 +1,7 @@
 # TankDemo
 
 [![Build Status](https://travis-ci.org/scheidan/TankDemo.jl.svg?branch=master)](https://travis-ci.org/scheidan/TankDemo.jl)
-
+[![Build status](https://ci.appveyor.com/api/projects/status/4tvxobubea2dnosh/branch/master?svg=true)](https://ci.appveyor.com/project/scheidan/tankdemo-jl/branch/master)
 
 # Introduction
 
@@ -49,7 +49,7 @@ println("Level of intermediate tank 1 at t=100: $(final_tank.tank_up[1].level)")
 
 # Tests
 
-The tests are automatically executed by the _Travis CI_ service every
+The tests are automatically executed by the services _Travis CI_ (for Linux and OS X) and _Appveyor_ (for Windows) every
 time a new version in pushed to GitHub. To run the tests locally type
 `Pkg.test("TankDemo")`.
 
