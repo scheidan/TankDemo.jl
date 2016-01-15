@@ -56,7 +56,7 @@ time a new version in pushed to GitHub. To run the tests locally type
 # How was this package created?
 
 1. Use `Pkg.generate()` to generate the package skeleton
-2. Copy the 'program' part of our last version into `src/TankDemo.jl`
+2. Copy the 'application' part of our last version into `src/TankDemo.jl`
 3. Copy the 'test' part of our last version into `test/runtests.jl`
 4. Modify this `README.md` file
 5. Push it to GitHub
